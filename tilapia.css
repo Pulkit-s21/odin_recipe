@@ -49,8 +49,7 @@ html,body{
                11.6px 11.1px 5.6px rgba(0, 0, 0, 0.032),
                23.9px 22.7px 15.4px rgba(0, 0, 0, 0.041),
                42.8px 40.7px 37.1px rgba(0, 0, 0, 0.049),
-               105px 100px 123px rgba(0, 0, 0, 0.07)
-;
+               105px 100px 123px rgba(0, 0, 0, 0.07);
 }
 
 .desc{
@@ -121,22 +120,16 @@ ol li span{
      line-height: 1.6;
 }
 
+footer{
+     background-color: #000;
+     padding: 2rem;
+}
+
 .returner a{
-     position: absolute;
      font-size: 1.5rem;
-     color: rgb(95, 95, 95);
+     color: white;
      text-decoration: none;
      margin: 1rem 4rem;
      transition: color 100ms ease,
                transform 500ms ease;
-     right: 0%;
-}
-
-.returner a:hover{
-     transform: scale(1.2);
-     color: rgb(2, 72, 90);
-}
-
-.checked{
-     text-decoration: line-through;
 }
